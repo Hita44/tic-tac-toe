@@ -16,6 +16,8 @@
 
 package tictactoe;
 
+import tictactoe.component.*;
+
 /**
  * @author Hita44
  * @link uzb.boss1@mail.ru

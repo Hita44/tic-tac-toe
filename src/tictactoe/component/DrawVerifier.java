@@ -14,14 +14,16 @@
  *    limitations under the License.
  */
 
-package tictactoe;
+package tictactoe.component;
+
+import tictactoe.model.GameTable;
 
 /**
  * @author Hita44
  * @link uzb.boss1@mail.ru
  */
-public class UserMove {
-    public void make(GameTable gameTable) {
-
+public class DrawVerifier {
+    public boolean isDraw(GameTable gameTable) {
+        return false;
     }
 }
