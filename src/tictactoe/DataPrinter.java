@@ -20,13 +20,12 @@ package tictactoe;
  * @author Hita44
  * @link uzb.boss1@mail.ru
  */
-public final class Launcher {
+public class DataPrinter {
+    public void printMappingTable() {
 
-    public static void main(String[] args) {
-        Game game = new Game(
-                new DataPrinter(), new ComputerMove(),
-                new UserMove(), new WinnerVerifier(), new DrawVerifier()
-        );
-        game.play();
+    }
+
+    public void printGameTable(GameTable gameTable) {
+
     }
 }
